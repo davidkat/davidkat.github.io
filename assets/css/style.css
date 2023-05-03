@@ -132,7 +132,7 @@ h6 {
 
 .name_span{
   border-left: 8px solid #c00202;
-  margin-right: 10px;
+  padding-left: 10px;
 }
 
 .pd-10{
@@ -1360,6 +1360,15 @@ section {
   .pricing .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
+    padding: 20px;
+  }
+
+  #topbar{
+    display: none !important;
+  }
+
+  .name_span{
+    display: none;
   }
 }
 
